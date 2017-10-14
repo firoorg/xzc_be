@@ -1,0 +1,372 @@
+body {
+  padding: 80px 40px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ /* background-image: url('/images/background2.png');*/
+}
+
+#index-search {
+	width: 80%;
+}
+
+.nav-search input {
+	width: 400px !important;
+	margin-right: 5px;	
+}
+
+.view_tx {
+	text-align: center;
+}
+
+.block-last {
+	margin: 0;
+	margin-right: 10px;
+}
+
+.block-next {
+	margin: 0;
+	margin-left: 10px;
+}
+#chart3 .jqplot-xaxis {
+	display: none;
+}
+
+.data {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.txid {
+	width: 100%;
+	display:block;
+	overflow: hidden;
+}
+
+.panel-address-summary {
+ margin-bottom: 5px;
+}
+
+/* datatable tweaks */
+table {
+	width: 100% !important;
+}
+.dataTables_info, .dataTables_length {
+	padding-left: 10px;
+}
+
+.dataTables_info {
+	display: hidden !important;
+}
+
+.dataTables_length {
+	padding-top: 10px;
+}
+
+.dataTables_paginate {
+	padding-right: 5px;
+}
+
+.tab-pane {
+	margin-top: 5px;
+}
+
+table a:not(.btn),.table a:not(.btn){
+	text-decoration:none
+}
+
+tr {
+	width: 100%;
+}
+
+.footer-padding {
+	height: 50px;
+	width: 100%;
+}
+
+.summary-table {
+	margin: 0px !important;
+}
+
+#loading-icon {
+	width: 30px;
+    margin: 10px 10px;
+}
+
+.menu-text {
+	margin-left:5px;
+}
+
+#twitter-icon {
+	font-size: 20px;
+}
+.connections {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+#lblBlockcount {
+	margin-right: 10px;
+}
+
+#twitter-icon img{
+	width: 40px;
+	margin: 5px 5px;
+}
+
+#market_menu {
+	margin-bottom: 5px;
+}
+
+.label a:link {
+	color: #ffffff;
+}
+
+.label a:visited {
+	color: #ffffff;
+}
+
+.label a:hover {
+	color: #ffffff;
+}
+
+.label a:active {
+	color: #ffffff;
+}
+
+@media(max-width:767px){
+	body {
+		padding: 0px;
+		padding-top:60px;
+	}
+}
+
+@media(max-width:1096px){
+	.nav-search input {
+	    width: 300px !important;
+    }
+}
+
+@media(max-width:865px){
+	.nav-search input {
+	    width: 150px !important;
+    }
+}
+.qrcode {
+	position: absolute;
+	top: 65px;
+	right: 15px;
+}
+
+.footer-logo {
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+}
+/*— BEGIN ZCOIN STYLES —*/
+/* custom Zcoin Explorer LESS/CSS */
+/* misc /////////////////// */
+/* custom Zcoin Explorer LESS/CSS */
+/* misc /////////////////// */
+body {
+	color: #e2e2eb;
+}
+a {
+	color: #23B852;
+}
+a:hover {
+	color: #e2e2eb;
+}
+label {
+	color: #ffffff;
+}
+/* NAVBAR /////////////////// */
+.navbar-default {
+	background-color: #20202E;
+}
+.navbar-header {
+	padding-left: 20px;
+}
+.navbar-brand {
+	background: url('https://zcoin.io/wp-content/uploads/2016/11/zcoin-id-final_logo-rev.svg') center no-repeat;
+	max-height: 100%;
+	height: 100%;
+	width: 110px;
+	margin-right: 30px;
+	text-indent: -300px;
+	/* probably not needed anymore, but doesn't hurt */
+	-o-object-fit: contain;
+	object-fit: contain;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: #23B852;
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #3f3f5b;
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a :hover {
+	color: #ffffff;
+}
+/* Pagination /////////////////// */
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+	background-color: #262637;
+	color: #7979a1;
+}
+.pagination > li > a,
+.pagination > li > span {
+	background-color: #35354c;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	background-color: #23B852;
+}
+.pagination > li > a:hover,
+.pagination > li > span {
+	background-color: #545479;
+}
+.btn-success {
+	background-color: #23B852;
+	border-color: #23B852;
+}
+.btn-success:hover {
+	background-color: #25c558;
+	border-color: #25c558;
+}
+/* footer /////////////////// */
+.connections {
+	bottom: 22px;
+}
+.connections .label-default {
+	background-color: #393952;
+	color: #b5b5cb;
+}
+/* content /////////////////// */
+.panel-default > .panel-heading {
+	background-color: #f1f1f5;
+}
+.zhead {
+	background-color: #f1f1f5;
+}
+body {
+	background: #16161f;
+}
+table {
+	color: #d3d3e0;
+	background: #2a2a3d;
+}
+.table-bordered {
+	border: none;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+	background: #2a2a3d;
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+	background: #20202e;
+}
+div.dataTables_length label {
+	padding: 5px 20px;
+}
+table-bordered > thead > tr > th,
+.table-bordered > thead > tr > th,
+table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > th,
+table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > th,
+table-bordered > thead > tr > td,
+.table-bordered > thead > tr > td,
+table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > td,
+table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > td {
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+table.dataTable thead > tr > th {
+	background: #1e1e2b;
+	padding: 14px 18px 14px 18px;
+	border-bottom: 1px solid #000000;
+	color: #a6a6c1;
+}
+.dataTables_info {
+	color: #d3d3e0;
+	padding: 0px 25px;
+}
+.table-striped > tbody > tr:hover {
+	background: #393952;
+}
+tr:hover {
+	background: #393952;
+}
+#recent-table {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+.panel {
+	background: #16161f;
+	border-color: #3f3f5b;
+}
+.panel-default {
+	background: #1e1e2b;
+	border-color: #3f3f5b;
+	margin: 30px 0;
+}
+.panel-default > .panel-heading {
+	background: #1e1e2b;
+	color: #a6a6c1;
+	border-bottom: 1px solid #000000;
+}
+.panel-default > .panel-body {
+	background: #2a2a3d;
+}
+.zpanel {
+	background: #2a2a3d;
+}
+.ztable {
+	background: #222231;
+}
+.table-hover tr:hover {
+	background: #393952 !important;
+}
+.nav-tabs {
+	border-bottom: 1px solid #4a4a6a;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	color: #d3d3e0;
+	background: #393952;
+	border: 1px solid #4a4a6a;
+}
+ul.nav.nav-tabs li a {
+	background: #222231;
+	border: 1px solid #4a4a6a;
+}
+ul.nav.nav-tabs li a:hover {
+	background: #393952;
+	border: 1px solid #4a4a6a;
+}
+ul.nav.nav-tabs li.active a {
+	background: #393952;
+	border: 1px solid #4a4a6a;
+}
+/* Trade History colors -----*/
+.table > tbody > tr.success > td {
+	background: #23B852;
+}

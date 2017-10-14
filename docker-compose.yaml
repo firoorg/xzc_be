@@ -1,0 +1,30 @@
+version: '3'
+services:
+  zcoin:
+    build: docker/zcoin
+    volumes:
+      - zcoindata:/root/.zcoin
+    ports:
+      - "8168:8168"
+      - "8888:8888"
+  node:
+    build: 'docker/nodejs'
+    external_links:
+      - mongo:blockexplorer_mongo_1
+      - zcoin:blockexplorer_zcoin_1
+    volumes:
+      - .:/usr/src/app
+      - ./docker/nodejs/cron.d:/etc/cron.d
+    ports:
+      - "3001:3001"
+  mongo:
+    image: mongo:3.4.3
+    volumes:
+      - ./mongo_data:/data/db
+    ports:
+      - "27017:27017"
+    command: --smallfiles --rest
+
+volumes:
+  zcoindata:
+    external: true

@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  .col-md-12.col-xs-12
+    .panel.panel-default
+      .panel-heading
+        strong #{settings.locale.zerocoin}
+      .panel-body
+        :markdown
+          *#{settings.locale.zero_msg}*
+          
+          ------
+
+          ### Zerocoin API
+          *Return zerocoin advance features from local indexes*
+
+          *  **gettotalzeromint**
+             *#{settings.locale.zero_gettotalzeromint}*
+             [#{address}/zero/gettotalzeromint](/zero/gettotalzeromint)
+
+          *  **gettotalzerospend**
+             *#{settings.locale.zero_gettotalzerospend}*
+             [#{address}/zero/gettotalzerospend](/zero/gettotalzerospend)
+
+          *  **getzerominttxs**
+             *#{settings.locale.zero_gettotalzeromint}*
+             [#{address}/zero/getzerominttxs](/zero/getzerominttxs)
+
+          *  **getzerospendtxs**
+             *#{settings.locale.zero_gettotalzerospend}*
+             [#{address}/zero/getzerospendtxs](/zero/getzerospendtxs)
+
+          *  **getrealsupply**
+             *#{settings.locale.zero_getrealsupply}*
+             [#{address}/zero/getrealsupply](/zero/getrealsupply)
+
+
+    .footer-padding
+
