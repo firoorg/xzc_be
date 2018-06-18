@@ -48,8 +48,8 @@
     "pass": "test"
   },
 
-  // confirmations
-  "confirmations": 5,
+// confirmations
+  "confirmations": 100,
 
   // language settings
   "locale": "locale/en.json",
@@ -57,37 +57,37 @@
   // menu settings
   "display": {
     "api": true,
-    "markets": false,
-    "richlist": false,
-    "twitter": false,
-    "facebook": false,
+    "markets": true,
+    "richlist": true,
+    "twitter": true,
+    "facebook": true,
     "googleplus": false,
     "search": true,
-    "movement": false,
-    "zerocoin": false,
+    "movement": true,
+    "zerocoin": true,
     "network": true
   },
 
   // index page (valid options for difficulty are POW, POS or Hybrid)
   "index": {
     "show_hashrate": true,
-    "difficulty": "POS",
-    "last_txs": 50
+    "difficulty": "POW",
+    "last_txs": 100
   },
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 13885,
-    "blockhash": "0x00005e2cbf31d42c51e8739f672b987d11c6408229d5a370e283cdf2b2f77a5e",
-//    "txhash": "",
-//    "address": ""
+    "blockindex": 8888,
+    "blockhash": "eaf57fc934fec6aafb5af21851a9c24a01e490d7b77409fc75d2eeca417a0a09",
+    "txhash": "e80554142d46ef88f18b2a4dc0681c8380523a232739dc77091c6a6c929cb2bc",
+    "address": "a41pkKGRFLXFfcEdWueQ4xN6PZSNeKc2Wk"
   },
 
   // market settings
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "BLK",
+    "coin": "XZC",
     "exchange": "BTC",
     "enabled": ["bittrex"],
     "cryptopia_id": "1658",
@@ -118,7 +118,7 @@
 
   //genesis
   "genesis_tx": "365d2aa75d061370c9aefdabac3985716b1e3b4bb7c4af4ed54f25e5aaa42783",
-  "genesis_block": "0x00005e2cbf31d42c51e8739f672b987d11c6408229d5a370e283cdf2b2f77a5e",
+  "genesis_block": "4381deb85b1b2c9843c222944b616d997516dcbd6a964e1eaf0def0830695233",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
@@ -135,7 +135,7 @@
   // HEAVY: retreive from heavys getsupply api call
   // BALANCES : total of all address balances
   // TXOUTSET : retreive from gettxoutsetinfo api call
-  "supply": "GETINFO",
+  "supply": "COINBASE",
 
   // how to acquire network hashrate
   // getnetworkhashps: uses getnetworkhashps api call, returns in GH/s
@@ -152,6 +152,13 @@
   // type (optional) = class of label, valid types: default, primary, warning, danger, success
   // url (optional) = url to link to for more information
   "labels": {
-
+    "a364faMMnKxrCAukxEHrkryR3fQTknekK8": {"label": "bittrex", "type":"primary", "url":"https://www.bittrex.com"},
+    "aFLcCCg5v52xZt7PyTtcDL1ikw26f7qAnU": {"label": "btc38", "type":"warning", "url":"http://www.btc38.com/trade_en.html"},
+    "aLGEHN9yToheLLZjqf4XP8C7uXG6Y45x7w": {"label": "btc38", "type":"primary", "url":"http://www.btc38.com/trade_en.html"},
+    "aCAgTPgtYcA4EysU4UKC86EQd5cTtHtCcr": {"label": "founder's wallet"},
+    "aHu897ivzmeFuLNB6956X6gyGeVNHUBRgD": {"label": "founder's wallet"},
+    "aQ18FBVFtnueucZKeVg4srhmzbpAeb1KoN": {"label": "founder's wallet"},
+    "a1kCCGddf5pMXSipLVD9hBG2MGGVNaJ15U": {"label": "founder's wallet"},
+    "a1HwTdCmQV3NspP2QqCGpehoFpi8NY4Zg3": {"label": "bounty wallet"}
   }
 }
