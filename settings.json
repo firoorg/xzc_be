@@ -5,12 +5,12 @@
 */
 {
   // name your instance!
-  "title": "Balkanium Official Block Explorer",
+  "title": "Zcoin Official Block Explorer",
 
-  "address": "explorer.balkanium.net",
+  "address": "explorer.zcoin.io",
 
   // coin name
-  "coin": "Balkanium",
+  "coin": "Balcanium",
 
   // coin symbol
   "symbol": "BLK",
@@ -19,10 +19,10 @@
   "logo": "/images/logo.png",
 
   // favicon
-  "favicon": "public/favicon.ico",
+  "favicon": "/images/logo.png",
 
   // Uses bootswatch themes (http://bootswatch.com/)
-  "theme": "Bcoin",
+  "theme": "Zcoin",
 
   // port to listen for requests on.
   "port" : 3001,
@@ -31,7 +31,7 @@
   "dbsettings": {
     "user": "test",
     "password": "test",
-    "database": "Balkaniumexplorer",
+    "database": "Balcaniumexplorer",
     "address": "localhost",
     "port": 27017
   },
@@ -48,7 +48,7 @@
     "pass": "test"
   },
 
-// confirmations
+  // confirmations
   "confirmations": 100,
 
   // language settings
@@ -57,14 +57,14 @@
   // menu settings
   "display": {
     "api": true,
-    "markets": true,
-    "richlist": true,
-    "twitter": true,
-    "facebook": true,
+    "markets": false,
+    "richlist": false,
+    "twitter": false,
+    "facebook": false,
     "googleplus": false,
     "search": true,
-    "movement": true,
-    "zerocoin": true,
+    "movement": false,
+    "zerocoin": false,
     "network": true
   },
 
