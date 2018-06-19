@@ -5,9 +5,9 @@
 */
 {
   // name your instance!
-  "title": "Zcoin Official Block Explorer",
+  "title": "Balkanium DEMO Block Explorer",
 
-  "address": "explorer.zcoin.io",
+  "address": "explorer.balkanium.com",
 
   // coin name
   "coin": "Balcanium",
@@ -87,8 +87,8 @@
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "XZC",
-    "exchange": "BTC",
+    "coin": "BLK",
+    "exchange": "BLK",
     "enabled": ["bittrex"],
     "cryptopia_id": "1658",
     "ccex_key" : "Get-Your-Own-Key",
@@ -112,9 +112,9 @@
   },
 
   // twitter, facebook, googleplus
-  "twitter": "zcoinofficial",
-  "facebook": "zcoinofficial",
-  "googleplus": "zcoinofficial",
+  "twitter": "#",
+  "facebook": "#",
+  "googleplus": "#",
 
   //genesis
   "genesis_tx": "365d2aa75d061370c9aefdabac3985716b1e3b4bb7c4af4ed54f25e5aaa42783",
