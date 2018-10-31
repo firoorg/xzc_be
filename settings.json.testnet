@@ -122,7 +122,7 @@
 
   //genesis
   "genesis_tx": "25b361d60bc7a66b311e72389bf5d9add911c735102bcb6425f63aceeff5b7b8",
-  "genesis_block": "7ac038c193c2158c428c59f9ae0c02a07115141c6e9dc244ae96132e99b4e642",
+  "genesis_block": "1e3487fdb1a7d46dac3e8f3e58339c6eff54abf6aef353485f3ed64250a35e89",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
